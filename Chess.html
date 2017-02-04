@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Game</title>
+    <style type="text/css">
+
+        body { background-color : antiquewhite;  }
+
+        h1 {text-align : center;
+            font-style: italic;
+            font-weight: 900;
+            color: brown; }
+
+        p { margin-top: 10px;
+           margin-left: 10px;
+           color: black;
+           font-weight: 400;}
+
+
+        #boarder{
+            border: 10px solid #93643a;
+            height: 560px;
+            width: 560px;
+            margin-top: 10px;
+            margin-right: 100px;
+            margin-left: 390px;
+        }
+
+        #white {
+            background-color: navajowhite;
+            float: left;
+            height: 69px;
+            width: 69px;
+            text-align: center;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;}
+
+        #black {
+            background-color: #a07f5b;
+            float: left;
+            height: 69px;
+            width: 69px;
+            text-align: center;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black; }
+    </style>
+
+</head>
+
+<body>
+      <h1>Chess Game</h1>
+       <p>log-in in order to submit your score</p>
+
+      <form action="the computer program" method="post">
+           username: <input type="text" name="username" />
+           <br/>
+           password: <input type="password" name="pword" />
+           <br>
+          <input type="submit" value="Submit">
+      </form>
+
+      <div id="boarder">
+
+          <!-- 1st row-->
+      <div id="white"> <span style="  font-size:50px;"> &#9820; </span> </div>
+      <div id="black"> <span style=" font-size:50px;"> &#9822; </span></div>
+      <div id="white"> <span style=" font-size:50px;"> &#9821; </span></div>
+      <div id="black"> <span style=" font-size:50px;"> &#9819; </span> </div>
+      <div id="white"> <span style=" font-size:50px;"> &#9818; </span> </div>
+      <div id="black"> <span style=" font-size:50px;"> &#9821; </span></div>
+      <div id="white"> <span style=" font-size:50px;"> &#9822; </span></div>
+      <div id="black"> <span style=" font-size:50px;"> &#9820; </span></div>
+
+          <!-- 2nd row-->
+      <div id="black">  <span style=" font-size:50px;"> &#9823; </span> </div>
+      <div id="white"> <span style=" font-size:50px;"> &#9823; </span> </div>
+      <div id="black"> <span style=" font-size:50px;"> &#9823; </span> </div>
+      <div id="white"> <span style=" font-size:50px;"> &#9823; </span> </div>
+      <div id="black"> <span style=" font-size:50px;"> &#9823; </span> </div>
+      <div id="white"> <span style=" font-size:50px;"> &#9823; </span> </div>
+      <div id="black"> <span style=" font-size:50px;"> &#9823; </span> </div>
+      <div id="white"> <span style=" font-size:50px;"> &#9823; </span> </div>
+
+          <!-- 3rd row-->
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+
+          <!-- 4th row-->
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+
+          <!-- 5th row-->
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+
+          <!-- 6th row-->
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+      <div id="black"> </div>
+      <div id="white"> </div>
+
+          <!-- 7th row-->
+      <div id="white"> <span style="  font-size:50px;"> &#9817; </span> </div>
+      <div id="black"> <span style=" font-size:50px;"> &#9817; </span></div>
+      <div id="white"> <span style=" font-size:50px;"> &#9817; </span></div>
+      <div id="black"><span style="  font-size:50px;"> &#9817; </span> </div>
+      <div id="white"><span style="   font-size:50px;"> &#9817; </span> </div>
+      <div id="black"><span style="  font-size:50px;"> &#9817; </span> </div>
+      <div id="white"><span style="  font-size:50px;"> &#9817; </span> </div>
+      <div id="black"> <span style="  font-size:50px;"> &#9817; </span></div>
+
+          <!-- 8th row-->
+      <div id="black"><span style="  font-size:50px;"> &#9814; </span> </div>
+      <div id="white"><span style="  font-size:50px;"> &#9816; </span> </div>
+      <div id="black"> <span style="  font-size:50px;"> &#9815; </span></div>
+      <div id="white"><span style="  font-size:50px;"> &#9813; </span> </div>
+      <div id="black"> <span style=" font-size:50px;"> &#9812; </span></div>
+      <div id="white"><span style="  font-size:50px;"> &#9815; </span> </div>
+      <div id="black"><span style="  font-size:50px;"> &#9816; </span> </div>
+      <div id="white"><span style="  font-size:50px;"> &#9814; </span> </div>
+
+      </div>
+
+</body>
+</html>
